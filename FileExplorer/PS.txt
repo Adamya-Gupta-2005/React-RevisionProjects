@@ -1,0 +1,12 @@
+Create a file explorer (like vscode sidebar):
+Prepare a scalable json and a file structure and add buttons to add folders and files.
+
+Solution:
+1. Prepare Scalabale JSON: Create a data folder, then create a folderData file that has a JSON.
+2. Create a component FS for clean structure.
+3. In component, handle rendering (for infinite rendering means forder inside a folder) use FS compponent again and pass mapped folder as prop to that component.
+4. Now adding two buttons to add folder and file 
+5. Now on clicking buttons either folder or file spans shouldbe created and an input that updates showInput on clicking enter(13) and with some value
+
+6. Creating own algorithm to implement insertions in Folder using hooks, it is a tree like structure
+7. I use DFS to traverse the tree and insert node(folder/file) at the provided id
