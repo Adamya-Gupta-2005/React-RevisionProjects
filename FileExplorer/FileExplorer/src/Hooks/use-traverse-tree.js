@@ -19,8 +19,23 @@ const useTraverseTree = () => {
 
         return {...tree, items: latestNode}
     }
-1
-    return {insertNode};
+
+    function renameNode(tree, nodeId, newName) {
+        if(tree.id === nodeId) {
+            tree.name = newName
+            return tree;
+        }
+
+        if(tree.items) {
+            tree.items.map((ob) => {
+                return renameNode(ob, nodeId, newName)
+            });
+        }
+
+        return {...tree}
+    }
+
+    return {insertNode, renameNode};
 }
 
 export default useTraverseTree;

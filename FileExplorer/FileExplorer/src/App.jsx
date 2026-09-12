@@ -9,7 +9,7 @@ const App = () => {
 
   const [explorerData, setExplorerData] = useState(explorer)
 
-  const {insertNode} = useTraverseTree();
+  const {insertNode, renameNode} = useTraverseTree();
   
   const handleInsertNode = (folderId, item, isFolder) => {
     const finalTree = insertNode(explorerData, folderId, item, isFolder)
@@ -17,9 +17,13 @@ const App = () => {
     setExplorerData(finalTree);
   }
 
+  const handleRenameNode = (nodeId, newName) => {
+    const finalTree = renameNode(explorer, nodeId, newName)
+  }
+
   return (
     <div>
-      <FS explorer={explorerData} handleInsertNode={handleInsertNode} />
+      <FS explorer={explorerData} handleInsertNode={handleInsertNode} handleRenameNode={handleRenameNode} />
     </div>
   )
 }
