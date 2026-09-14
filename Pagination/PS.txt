@@ -1,0 +1,15 @@
+We need to create PAGINATION - dividing large amount of data into chunks
+so we can scroll from one page to other maintaining structure and clean ui
+
+The interviewer provides us dummyJSON api to fetch example data.
+
+Solution:
+
+1. fetch data from api and render the data on UI using useEffect (for one time render)
+2. Apply PAGINATION - print some products and divide it into pages and render pages.
+3. Divide products using splice of array and in a range find products in that page.
+here we took 100 and divided into 10 pages with 10 products each.
+we get index range of products through page*10 -10 to page * 10 ;
+ex. page 3 has range of products from index 20 to 30.
+
+better approacch is backend dominant we use api to get per page products lists, that prevents frontend from bloating with a lot of data.
