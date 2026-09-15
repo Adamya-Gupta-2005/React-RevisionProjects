@@ -1,0 +1,13 @@
+EMI CALCULATOR
+example question:
+I buy a house of 50 lakhs i made a down payment of 20% i.e 10 lakhs
+The bank sanctions me loan of 40 lakhs processing fee is 1% the loan amount of 40 lakhs is 40,000 (for 1%)
+the total amount for down payment is 10lakhs + 40,000 
+
+EMI amount = [p*r*[1+r]^n] / [(1+r)^n - 1]
+
+
+Solution: 
+1. Define all states
+2. Design ui and slider input value with defaults
+3. Design functions to calculate the params and tenure have constants
