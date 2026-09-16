@@ -1,0 +1,6 @@
+To create a progress bar
+
+we need to add accessibility we can do so from aria-progressbar from mdn docs
+role='progressbar'
+
+also we need to add valuemin valuenow valuemax
