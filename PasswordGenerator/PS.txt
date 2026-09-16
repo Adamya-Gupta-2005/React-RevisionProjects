@@ -1,0 +1,5 @@
+I need to create a password generation ui that generates passwords of provided length and custom checkboxes.
+
+solution:
+1. Design the ui
+2. Declare states
