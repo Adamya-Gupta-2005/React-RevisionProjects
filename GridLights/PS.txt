@@ -1,0 +1,3 @@
+PS: Build a 3x3 grid oof lights cells, where i can click on cells to activate it
+turning them green. When all the cells have been activated, 
+they will be deactivated one by one in the reverse order they were activated with a 300ms interval in between.
