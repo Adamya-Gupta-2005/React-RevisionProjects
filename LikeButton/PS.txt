@@ -1,0 +1,5 @@
+The PS asks us to create a button that takes like and dislike and loading states
+we need to create different UI for different states.
+
+The Like Icon and Loading Icon is provided.
+The api is provided that is called everytime when button is pressed and it has 50% success raito.
