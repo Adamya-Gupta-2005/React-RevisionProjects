@@ -1,0 +1,2 @@
+generate a job portal where through api you get list of ids and from hat ids you can call
+another api to get job descriptions and display 6 at time and after clicking on get more get 6 more.
