@@ -1,0 +1,10 @@
+useEffect hook is use to handle side effects in components.
+Side effects are any action that reaches outside of react component. ex: fetching data from api, modifiying browser dom.
+
+useEffect instructs react to execute your sideEffect logic after the component renders
+
+no array in dependancies : after every single render
+empty : once after initial render
+with dependancies : after any specified value changes
+
+CleanUp - is used when component is unmounted or dependancy array value changes
