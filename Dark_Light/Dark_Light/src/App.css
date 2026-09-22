@@ -1,0 +1,28 @@
+[data-theme="light"] {
+    --text-color: #333;
+}
+
+[data-theme="dark"] {
+    --text-color: red;
+}
+
+
+body {
+    font-family: sans-serif;
+    color: var(--text-color);
+}
+
+.page {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
