@@ -1,0 +1,2 @@
+Throttling - ensures a function executes at most once during a specified time interval
+like scrolling after eacgh scroll calling api is not benificial so we fix a time interval that after that every scroll api is called
