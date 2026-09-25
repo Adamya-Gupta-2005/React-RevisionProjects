@@ -1,0 +1,1 @@
+Draggable - used to select grid elements just by dragging
